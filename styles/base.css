@@ -1,0 +1,201 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ── Body ── */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+
+header {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+}
+
+#course-title {
+  display: block;
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.2rem 1rem 1rem;
+  letter-spacing: 0.05rem;
+}
+
+
+nav {
+  background-color: #162e4d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  gap: 1rem;
+}
+
+nav a {
+  color: #cfe0f5;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #4a90d9;
+  color: white;
+}
+
+main {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main h1 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  color: #1e3a5f;
+}
+
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+
+.card {
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 0.75rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+}
+
+
+.card-content {
+  padding: 1.2rem;
+}
+
+.card-text-image {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.card-text-image p {
+  flex: 1;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.card-text-image img {
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.card-location h3 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  color: #1e3a5f;
+}
+
+.location-details {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.location-details figure {
+  text-align: center;
+  min-width: 140px;
+}
+
+.location-details figure img {
+  width: 140px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.location-details figcaption {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+  color: #555;
+}
+
+.location-details p {
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+
+.card ul {
+  list-style: disc;
+  padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.card ul a {
+  color: #1a0dab;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.card ul a:hover {
+  text-decoration: underline;
+  color: #1e3a5f;
+}
+
+
+footer {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+#lastModified {
+  color: yellow;
+  font-size: 0.85rem;
+}
