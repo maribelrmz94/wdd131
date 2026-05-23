@@ -1,0 +1,35 @@
+
+#hamburger {
+  display: none;
+}
+
+#main-nav {
+  width: auto;
+  max-height: none;
+  overflow: visible;
+}
+
+#main-nav ul {
+  flex-direction: row;
+  gap: 0.25rem;
+  padding: 0;
+}
+
+#main-nav a {
+  padding: 0.4rem 0.85rem;
+  font-size: 0.9rem;
+}
+
+
+.gallery {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+figure img {
+  height: 180px;
+}
+
+
+main h1 {
+  font-size: 2.25rem;
+}
